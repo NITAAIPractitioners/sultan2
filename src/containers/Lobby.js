@@ -199,7 +199,7 @@ export default function Lobby({ setAuth }) {
     </Form>
   );
 
-  const touts =null;
+  const touts = null;
 
   return (
     <main id="lobby">
