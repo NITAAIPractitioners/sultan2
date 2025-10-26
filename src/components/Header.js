@@ -7,7 +7,7 @@ import { leaveRoom } from '../lib/endpoints';
 function Logo({ size = 40 }) {
   return (
     <img
-      src={require('kfupm.png')}
+      src={require('KFUPM.png')}
       alt="App Logo"
       width={size}
       height={size}
