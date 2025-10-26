@@ -22,7 +22,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-
+      
+      - name: Install deps (no audit noise)
+        env:
+          NPM_CONFIG_AUDIT: "false"
+        run: npm ci || npm install
+        
       - name: npm install, build, and test
         run: |
           npm install
@@ -66,4 +71,5 @@ jobs:
           package: .
 
           
+
 
