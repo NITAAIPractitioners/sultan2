@@ -8,7 +8,7 @@ import KFUPMLogo from './KFUPM.png'; // if your image is in the same folder
 function Logo({ size = 40 }) {
   return (
     <img
-      src={KFUPMLogo}           // or: require('./KFUPM.png')
+      src={KFUPMLogo}
       alt="KFUPM Logo"
       width={size}
       height={size}
