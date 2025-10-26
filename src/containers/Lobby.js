@@ -223,20 +223,12 @@ export default function Lobby({ setAuth }) {
   return (
     <main id="lobby">
      <section className="primary d-none d-md-flex">
-  <div id="lobby-left">
-    <div>
-      <Header />
-      <section className="container-half">{touts}</section>
-    </div>
-    <section className="container-half">
-      <FooterSimple />
-    </section>
-  </div>
-  <div id="lobby-right">
+  <div id="lobby-right" style={{ margin: '0 auto' }}>
+    <Header />
     <section className="container-half">{form}</section>
+    <FooterSimple />
   </div>
 </section>
-
         </div>
         <div id="lobby-right">
           <section className="container-half">{form}</section>
