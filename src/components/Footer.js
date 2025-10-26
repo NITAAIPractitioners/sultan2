@@ -17,16 +17,7 @@ export default function Footer({ mobileOnly = false }) {
   return (
     <footer className={mobileOnly ? 'd-block d-md-none' : null}>
       <Container>
-        <div>
-          Built on{' '}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/wsun/multibuzzer"
-          >
-            open source
-          </a>
-        </div>
+        <div></div>
       </Container>
     </footer>
   );
