@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 export function FooterSimple() {
   return (
-    <div id="footer-simple"></div>
+      return null;
   );
 }
 
