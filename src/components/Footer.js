@@ -3,9 +3,7 @@ import { Container } from 'react-bootstrap';
 
 export function FooterSimple() {
   return (
-    <div id="footer-simple">
-     
-    </div>
+    <div id="footer-simple"></div>
   );
 }
 
