@@ -4,14 +4,7 @@ import { Container } from 'react-bootstrap';
 export function FooterSimple() {
   return (
     <div id="footer-simple">
-      Built on{' '}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/wsun/multibuzzer"
-      >
-        open source
-      </a>
+     
     </div>
   );
 }
