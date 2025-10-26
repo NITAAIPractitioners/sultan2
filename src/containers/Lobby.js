@@ -204,7 +204,7 @@ export default function Lobby({ setAuth }) {
   return (
     <main id="lobby">
       <section className="primary d-none d-md-flex">
-        <div id="lobby-left" style={{ display: 'none' }}>
+        <div id="lobby-left">
           <div>
             <Header />
             <section className="container-half">{touts}</section>
