@@ -46,7 +46,9 @@ export default function Header({
     <header>
       <Navbar>
         <Navbar.Brand>
-            <Logo /> Sultan AlMuhammadi<br />Class Game
+             <Logo /> Sultan AlMuhammadi
+            <br />
+            Class Game
         </Navbar.Brand>
         <div className="nav-buttons">
           {!isNil(sound) ? (
