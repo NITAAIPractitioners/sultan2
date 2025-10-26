@@ -2,9 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 export function FooterSimple() {
-  return (
-<div id="footer-simple"></div>
-  );
+  return <div id="footer-simple"></div>;
 }
 
 /**
@@ -15,7 +13,7 @@ export default function Footer({ mobileOnly = false }) {
   return (
     <footer className={mobileOnly ? 'd-block d-md-none' : null}>
       <Container>
-<div></div>
+        <div></div>
       </Container>
     </footer>
   );
