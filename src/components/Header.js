@@ -29,7 +29,6 @@ export default function Header({
 }) {
   const history = useHistory();
 
-  // leave current game
   async function leave() {
     try {
       await leaveRoom(auth.roomID, auth.playerID, auth.credentials);
@@ -46,10 +45,11 @@ export default function Header({
     <header>
       <Navbar>
         <Navbar.Brand>
-             <Logo /> Sultan AlMuhammadi
-            <br />
-            Class Game
+          <Logo /> Sultan AlMuhammadi
+          <br />
+          Class Game
         </Navbar.Brand>
+
         <div className="nav-buttons">
           {!isNil(sound) ? (
             <button className="text-button" onClick={() => setSound()}>
