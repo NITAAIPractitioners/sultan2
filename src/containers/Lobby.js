@@ -222,7 +222,6 @@ export default function Lobby({ setAuth }) {
 
   return (
     <main id="lobby">
-
       <section className="primary d-none d-md-flex">
         <div id="lobby-left">
           <div>
