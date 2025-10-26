@@ -3,19 +3,19 @@ import { Navbar } from 'react-bootstrap';
 import { isNil } from 'lodash';
 import { useHistory } from 'react-router';
 import { leaveRoom } from '../lib/endpoints';
+import KFUPMLogo from './KFUPM.png'; // if your image is in the same folder
 
 function Logo({ size = 40 }) {
   return (
     <img
-      src={require('./KFUPM.png')}
-      alt="App Logo"
+      src={KFUPMLogo}           // or: require('./KFUPM.png')
+      alt="KFUPM Logo"
       width={size}
       height={size}
       style={{ borderRadius: '8px' }}
     />
   );
 }
-
 
 export default function Header({
   auth = {},
