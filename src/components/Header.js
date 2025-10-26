@@ -16,7 +16,6 @@ function Logo({ size = 40 }) {
     />
   );
 }
-
 export default function Header({
   auth = {},
   clearAuth,
