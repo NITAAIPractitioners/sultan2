@@ -4,22 +4,18 @@ import { isNil } from 'lodash';
 import { useHistory } from 'react-router';
 import { leaveRoom } from '../lib/endpoints';
 
-function Logo({ size = 25 }) {
+function Logo({ size = 40 }) {
   return (
-    <svg
+    <img
+      src={require('kfupm.png')}
+      alt="App Logo"
       width={size}
       height={size}
-      viewBox="0 0 95 95"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="20" cy="20" r="20" fill="#F2994A" />
-      <circle cx="75" cy="20" r="20" fill="#348DF5" />
-      <circle cx="20" cy="75" r="20" fill="#348DF5" />
-      <circle cx="75" cy="75" r="20" fill="#348DF5" />
-    </svg>
+      style={{ borderRadius: '8px' }}
+    />
   );
 }
+
 
 export default function Header({
   auth = {},
